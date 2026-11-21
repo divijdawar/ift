@@ -1,0 +1,14 @@
+# Local instructions and credentials
+/AGENTS.md
+.env
+.env.*
+!.env.example
+
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store

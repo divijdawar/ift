@@ -1,0 +1,16 @@
+[project]
+name = "ift"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["numpy", "matplotlib"]
+
+[project.optional-dependencies]
+mp = [
+    "mp-api>=0.47.2",
+]
+phonons = [
+    "phonopy>=4.10.0",
+]
+
+[dependency-groups]
+dev = ["pytest"]
